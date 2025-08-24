@@ -1,6 +1,6 @@
 // 1. Variables & Constants
 
-var oldVar = "I am var (function-scoped, avoid using)";
+var oldVar = "I am BGM";
 let name = "BGM"; // block-scoped, reassignable
 const pi = 3.14159; // constant, cannot be reassigned
 
@@ -13,7 +13,7 @@ let user = null;          // null
 let notDefined;           // undefined
 let bigNumber = 12345678901234567890n; // BigInt
 let symbol = Symbol("id"); // Symbol
-let person = { name: "BGM", age: 21 }; // object
+let person = { name: "BGM", age: 19 }; // object
 
 console.log(typeof age, typeof name, typeof person);
 
